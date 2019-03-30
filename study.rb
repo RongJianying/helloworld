@@ -1,4 +1,4 @@
-re 'pry'
+require 'pry'
 
 class Greeter
   #自动定义两个方法 name为取值  name=为给值
@@ -31,6 +31,8 @@ class Greeter
   end
 
 end
+
+
 
 if __FILE__ == $0
   mg = Greeter.new
