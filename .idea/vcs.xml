@@ -2,6 +2,6 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/railsproject/demo" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/rails_project/demo" vcs="Git" />
   </component>
 </project>
