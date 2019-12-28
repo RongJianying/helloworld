@@ -1,0 +1,17 @@
+.searchInput {
+  border: 1px solid rgb(204, 204, 204);
+  font-size: 14px;
+  border-radius: 16px;
+  padding: 0.5em 1em;
+}
+
+.toolHeader {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  padding: 5px;
+}
+
+.spacer {
+  flex: 1;
+}

@@ -1,0 +1,35 @@
+{
+  "parser": "babel-eslint",
+  "plugins": ["import", "react-hooks"],
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  "globals": {
+    "Promise": true
+  },
+  "settings": {
+    "polyfills": ["Promise"]
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:compat/recommended",
+    "plugin:react/recommended",
+    "airbnb",
+    "prettier",
+    "prettier/react"
+  ],
+  "rules": {
+    "comma-dangle": "off",
+    "import/no-extraneous-dependencies": "off",
+    "react/react-in-jsx-scope": "off",
+    "react/jsx-filename-extension": "off",
+    "react/jsx-fragments": [1, "syntax"],
+    "arrow-body-style": "off",
+    "arrow-parens": "off",
+    "react/prop-types": "off",
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn",
+    "import/prefer-default-export": "off"
+  }
+}

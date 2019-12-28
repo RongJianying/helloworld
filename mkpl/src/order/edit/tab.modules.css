@@ -1,0 +1,70 @@
+.tabHeader {
+  display: 'flex';
+  padding: '24px';
+}
+
+.text {
+  font-size: 13px;
+  vertical-align: top;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-left: 1em;
+}
+
+.searchInput {
+  border: 1px solid rgb(204, 204, 204);
+  font-size: 14px;
+  border-radius: 16px;
+  padding: 0.5em 1em;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+
+.legendTitle3 {
+  font-size: 16px;
+  font-weight: bold;
+  color: #000;
+  text-align: center;
+  margin: 20px;
+}
+
+.header {
+  padding: 12px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  margin-bottom: 20px;
+}
+
+.headerName {
+  color: #333;
+  font-size: 24px;
+  text-transform: uppercase;
+  margin-top: 10px;
+}
+
+.toolHeader {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  padding: 5px;
+}
+
+.detailHeader {
+  font-size: 16px;
+  color: var(--primary-color);
+  text-align: center;
+  text-transform: uppercase;
+  margin: 5px;
+}
+
+.legendTitle2 {
+  font-size: 16px;
+  font-weight: bold;
+  color: #3f1578;
+  text-align: center;
+  margin: 5px;
+}

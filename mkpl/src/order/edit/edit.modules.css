@@ -1,0 +1,103 @@
+.editPageHeader {
+  background-color: #f8f8f8;
+}
+
+.header {
+  align-items: center;
+  display: flex;
+  height: 60px;
+  justify-content: center;
+  padding: 12px;
+  position: relative;
+}
+
+.headerName {
+  color: #454545;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.infoTable {
+  margin: auto;
+  width: 80%;
+}
+
+.infoTitle {
+  color: #919293;
+  font-size: 10px;
+  padding-bottom: 5px;
+}
+
+.infoContent {
+  color: #5a5b5c;
+  font-size: 12px;
+  font-weight: bold;
+  padding-top: 5px;
+}
+
+.statusInfoContent {
+  /* background-clip: content-box;
+  background-color: #d5d5d5; */
+  padding: 5px 35px 5px 0px;
+  /* text-align: center; */
+  color: rgb(138, 228, 3);
+  font-size: medium;
+  font-weight: bold;
+}
+
+.navBack {
+  color: #aaa;
+  font-size: 12px;
+
+  position: absolute;
+  left: 16px;
+  top: 16px;
+}
+
+.tabs {
+  border-bottom: 1px solid #888;
+  background-clip: content-box;
+  display: flex;
+  margin: 0px;
+}
+
+.tab {
+  color: #555;
+  font-size: 12px;
+  font-weight: bold;
+  opacity: 0.4;
+  padding: 12px 20px 5px 20px;
+  text-transform: capitalize;
+}
+
+.tab.active {
+  border-bottom: 2px solid #4f1191;
+  color: #4f1191;
+  opacity: 1;
+}
+
+.text {
+  font-size: 13px;
+  vertical-align: top;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-left: 1em;
+}
+
+.searchInput {
+  border: 1px solid rgb(204, 204, 204);
+  font-size: 14px;
+  border-radius: 16px;
+  padding: 0.5em 1em;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.legendTitle3 {
+  font-size: 16px;
+  font-weight: bold;
+  color: #000;
+  text-align: center;
+  margin: 5px;
+}

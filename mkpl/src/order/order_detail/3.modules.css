@@ -1,0 +1,68 @@
+.appWrapper {
+  padding: 24px;
+  background: linear-gradient(#3f1578, #fff);
+}
+
+.navigation {
+  background: #eee;
+  padding: 8px;
+  margin-bottom: 12px;
+}
+
+.contentContainer {
+  border: 1px solid #ccc;
+  background: #fff;
+}
+
+.navBack {
+  position: absolute;
+  color: rgb(32, 32, 32);
+  font-size: 16px;
+  left: 12px;
+  top: 20px;
+  border-radius: 10px;
+}
+
+.navBack:hover {
+  color: #888;
+}
+
+.spacer {
+  flex: 1;
+}
+
+.legend {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  border-bottom: 1px solid #3f1578;
+  margin-bottom: 1em;
+}
+
+.legendTitle {
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #3f1578;
+}
+
+.legendTitle2 {
+  font-size: 16px;
+  font-weight: bold;
+  color: #3f1578;
+  text-align: center;
+  margin: 5px;
+}
+
+.legendTitle3 {
+  font-size: 16px;
+  font-weight: bold;
+  color: #000;
+  text-align: center;
+  margin: 5px;
+}
+
+.legendHint {
+  font-size: 12px;
+  font-style: italic;
+  color: #888;
+}

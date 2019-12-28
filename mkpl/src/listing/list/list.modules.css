@@ -1,0 +1,141 @@
+:root {
+  --primary-color: rgb(105, 53, 172);
+}
+
+.header {
+  align-items: center;
+  display: flex;
+  height: 60px;
+  justify-content: center;
+  padding: 12px;
+  position: relative;
+}
+
+.headerName {
+  align-items: center;
+  display: flex;
+  height: 60px;
+  justify-content: center;
+  padding: 12px;
+  position: relative;
+  color: #454545;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.tag {
+  display: inline-block;
+  background: rgb(224, 243, 228);
+  color: rgb(66, 136, 78);
+  padding: 2px 4px;
+  opacity: 0.8;
+  border-radius: 2px;
+  font-weight: 800;
+}
+
+.nameCellNumber {
+  font-size: 16px;
+  color: var(--primary-color);
+}
+
+.nameSummaryNumber {
+  font-size: 15px;
+  color: var(--primary-color);
+}
+
+.cellSecondaryText {
+  color: #999;
+  font-size: 10px;
+}
+
+.dateSummaryMain {
+  color: var(--primary-color);
+  white-space: nowrap;
+}
+
+.progressBackground {
+  position: relative;
+  width: 100%;
+  height: 4px;
+  background: rgb(238, 238, 238);
+}
+
+.progressBar {
+  position: absolute;
+  height: 100%;
+  background: rgb(66, 136, 78);
+}
+
+.progressTitle {
+  color: #999;
+  padding: 2px;
+  text-align: center;
+}
+
+.progressDetail {
+  padding: 4px;
+}
+
+.progressPercent {
+  float: left;
+  color: rgb(66, 136, 78);
+}
+
+.progressNumber {
+  float: right;
+}
+
+.tableContainer {
+  border: 1px solid #ccc;
+  background: #fff;
+}
+
+.tableWrapper {
+  overflow: auto;
+  max-height: calc(100vh - 120px);
+  transition: opacity 0.2s;
+}
+
+.searchInput {
+  border: 1px solid rgb(204, 204, 204);
+  font-size: 14px;
+  border-radius: 16px;
+  padding: 0.5em 1em;
+  margin: 12px;
+}
+
+.toolHeader {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  padding: 12px;
+}
+
+.spacer {
+  flex: 1;
+}
+
+.createButton {
+  background-color: #40068b;
+  border: 1px solid rgb(204, 204, 204);
+  font-size: 14px;
+  border-radius: 16px;
+  padding: 0.5em 2em;
+  margin: 12px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  /* float: right; */
+}
+
+.moreAction {
+  position: relative;
+  cursor: pointer;
+}
+
+.tableWrapper.overflow {
+  overflow: auto;
+  max-height: calc(100vh - 120px);
+}
