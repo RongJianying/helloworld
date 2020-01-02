@@ -7,3 +7,6 @@
 [submodule "hugo/blog/themes/mediumish"]
 	path = hugo/blog/themes/mediumish
 	url = https://github.com/lgaida/mediumish-gohugo-theme.git
+[submodule "hugo/blog/themes/themes/ananke"]
+	path = hugo/blog/themes/themes/ananke
+	url = https://github.com/budparr/gohugo-theme-ananke.git
