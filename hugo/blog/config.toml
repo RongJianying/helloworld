@@ -1,5 +1,5 @@
 title = "Jyrong Home"
-#baseURL = "http://112.126.61.83"
+baseURL = "http://112.126.61.83"
 languageCode = "en-us"
 theme = "ananke"
 
