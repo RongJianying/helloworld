@@ -6,17 +6,26 @@
     <description>Recent content in Tags on Jyrong Home</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 12 Apr 2017 11:14:48 -0400</lastBuildDate>
+    <lastBuildDate>Fri, 03 Jan 2020 10:29:50 +0800</lastBuildDate>
     
 	<atom:link href="http://112.126.61.83/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>scene</title>
-      <link>http://112.126.61.83/tags/scene/</link>
-      <pubDate>Wed, 12 Apr 2017 11:14:48 -0400</pubDate>
+      <title>economics</title>
+      <link>http://112.126.61.83/tags/economics/</link>
+      <pubDate>Fri, 03 Jan 2020 10:29:50 +0800</pubDate>
       
-      <guid>http://112.126.61.83/tags/scene/</guid>
+      <guid>http://112.126.61.83/tags/economics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>markdown</title>
+      <link>http://112.126.61.83/tags/markdown/</link>
+      <pubDate>Fri, 03 Jan 2020 10:29:50 +0800</pubDate>
+      
+      <guid>http://112.126.61.83/tags/markdown/</guid>
       <description></description>
     </item>
     
